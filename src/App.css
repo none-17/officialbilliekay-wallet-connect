@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.ui.attached.segment, .ui.tabular.menu .active.item, .ui.attached.tabular.menu {
+  border-color: white!important;
+  background: transparent !important;
+  color: white !important;
+  
+}
+
+.ui.tabular.menu .item {
+  color: white !important;
+}
+
+.ui.tab.active, .ui.tab.open {
+  background: transparent!important;
+  padding: 0;
+  border: none;
+  margin-top: 40px;
+}
+
+.ui.input {
+  padding: inherit;
+}
